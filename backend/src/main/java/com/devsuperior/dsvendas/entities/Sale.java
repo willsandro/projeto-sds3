@@ -33,7 +33,7 @@ public class Sale {
 		this.id = id;
 		this.visited = visited;
 		this.deals = deals;
-		this.amout = amout;
+		this.amount = amout;
 		this.date = date;
 		this.seller = seller;
 	}
@@ -63,11 +63,11 @@ public class Sale {
 	}
 
 	public Double getAmout() {
-		return amout;
+		return amount;
 	}
 
 	public void setAmout(Double amout) {
-		this.amout = amout;
+		this.amount = amout;
 	}
 
 	public LocalDate getDate() {
